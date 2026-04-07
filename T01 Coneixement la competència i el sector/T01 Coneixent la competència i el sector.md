@@ -92,3 +92,169 @@ end note
 Vendre millor: Si ells tenen un problema de ciberseguretat, els pots dir que tu ho controles (com ESED). Si volen algú de confiança que ho faci tot, els dius que ets com JSM però més proper.
 
 Per diferenciar-nos: La competència gran és lenta i cara. La petita (JSM) pot ser massa genèrica. Tu pots ser l'equilibri perfecte: tècnic, proper i amb ganes de demostrar que ets el millor.
+
+
+# FASE 2: ESTRATÈGIA
+
+## Definició de l’estratègia
+
+Per aconseguir que Foodlogístic S.A. ens esculli davant la competència, definim una proposta de valor clara basada en tres pilars:
+
+---
+
+## 1. Proximitat i tracte personal
+
+Som una empresa local de Mataró, cosa que ens permet:
+
+- Intervencions ràpides in situ  
+- Relació directa amb el client  
+- Comunicació sense intermediaris  
+
+A diferència d’empreses grans com Grup Qualitat, oferim un tracte més proper i flexible.
+
+---
+
+## 2. Servei ràpid i flexible (quasi 24/7)
+
+- Temps de resposta molt baixos  
+- Resolució remota immediata  
+- Sistema d’urgències per incidències crítiques  
+
+Per una empresa logística com Foodlogístic, cada minut compta.  
+Si el sistema cau, es perden diners.
+
+---
+
+## 3. Especialització en seguretat + servei integral
+
+Combinem dos models:
+
+- Especialització en ciberseguretat (com ESED)  
+- Servei global (com JSM)  
+
+### Oferim:
+
+- Protecció contra ciberatacs  
+- Migració al núvol (Azure / AWS)  
+- Còpies de seguretat automatitzades  
+- Manteniment complet  
+
+Ens posicionem com l’equilibri perfecte:
+
+- No tan genèrics com els petits  
+- No tan cars ni lents com els grans  
+
+---
+
+## 4. Preu competitiu amb alt valor
+
+- Tarifes ajustades a PIME  
+- Packs de serveis (manteniment + seguretat + cloud)  
+- Escalable segons el creixement  
+
+No som els més barats, però sí els que ofereixen millor relació qualitat-preu.
+
+---
+
+## Estratègia resumida
+
+Som una empresa local, ràpida i especialitzada que ofereix un servei complet, segur i adaptat a les necessitats reals d’una empresa logística.
+
+---
+
+# Recursos necessaris
+
+Per donar servei a un client com FoodLogístic, necessitem un equip mínim amb aquests rols:
+
+## Equip humà necessari
+
+### 1. Tècnic de sistemes (cloud)
+
+- Gestió de servidors i xarxes  
+- Virtualització i cloud  
+- Resolució d'incidències complexes  
+
+ Clau per la infraestructura principal
+
+---
+
+### 2. Tècnic Helpdesk (Junior / Mid)
+
+- Suport a usuaris  
+- Resolució d'incidències habituals  
+- Atenció remota  
+
+---
+
+### 3. Especialista en ciberseguretat
+
+- Monitorització  
+- Auditories de seguretat  
+- Gestió de backups i protecció de dades  
+
+**Pot ser:**
+- Intern (ideal)  
+- Externalitzat (al principi)
+
+---
+
+### 4. Especialista en Cloud / DevOps (opcional però recomanat)
+
+- Migració a Azure / AWS  
+- Automatització  
+- Optimització de recursos  
+
+Important si el client vol modernitzar-se
+
+---
+
+### 5. Comercial / Gestor de compte
+
+- Relació amb el client  
+- Seguiment del servei  
+- Propostes de millora  
+
+Si ets autònom, aquest rol és teu.
+
+---
+
+### 6. Administració
+
+- Facturació  
+- Gestió de proveïdors  
+- Control econòmic  
+
+Pot ser parcial o externalitzat
+
+---
+
+# Som suficients o cal contractar?
+
+## Situació inicial (empresa petita)
+
+Si esteu començant:
+
+No sou suficients per cobrir-ho tot  
+Podeu assumir:
+
+- 1 tècnic principal  
+- 1 helpdesk  
+- Comercial (vosaltres mateixos)  
+
+---
+
+## Solució realista
+
+- Externalitzar la ciberseguretat al principi  
+- Contractar helpdesk quan creixi la càrrega  
+- Escalar equip segons necessitats  
+
+---
+
+## Conclusió de recursos
+
+No cal una gran empresa per guanyar el client, però sí:
+
+- Bona organització  
+- Suport extern intel·ligent  
+- Capacitat de créixer ràpid  
