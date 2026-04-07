@@ -77,7 +77,18 @@ end note
 
 ## Radiografia de departaments:
 
-| Encabezado 1 | Encabezado 2 | Encabezado 3 |
-|--------------|--------------|--------------|
-| Fila 1 Col 1 | Fila 1 Col 2 | Fila 1 Col 3 |
-| Fila 2 Col 1 | Fila 2 Col 2 | Fila 2 Col 3 |
+| Departament | Funcions principals | Per què és clau per a FoodLogístic? |
+| :--- | :--- | :--- |
+| **Direcció / Gerència** | Estratègia, gestió de personal, rendibilitat, ser la cara visible en reunions importants. | Transmet confiança. Un client gran vol parlar amb el cap, no amb un becari. |
+| **Comercial i Màrqueting** | Captar clients, preparar pressupostos (RFPs), gestionar la relació. | Necessitaràs preparar una proposta competitiva. Si ets autònom, aquesta funció és teva. |
+| **Departament Tècnic (Operacions)** | Helpdesk: Resoldre incidències remotes (correu, xarxa, programari). Desplegament: Instal·lació in situ de servidors, cablejat, routers. Ciberseguretat: Monitorització, còpies de seguretat, protecció de dades. | La logística no pot parar. Si cau el sistema, perden diners cada minut. Necessiten un equip tècnic ràpid. |
+| **Infraestructura i Cloud** | Servidors, virtualització (VMware), núvol (Azure, AWS). | FoodLogístic vol "renovar a fons". Segur que volen migrar part al núvol. |
+| **Administració (Backoffice)** | Facturació, compres a proveïdors (Ingram Micro, Sage...), gestió de personal. | Perquè tot funcioni per dins i tu puguis cobrar. |
+
+
+
+## Per què hem de saber tot això?
+
+Vendre millor: Si ells tenen un problema de ciberseguretat, els pots dir que tu ho controles (com ESED). Si volen algú de confiança que ho faci tot, els dius que ets com JSM però més proper.
+
+Per diferenciar-nos: La competència gran és lenta i cara. La petita (JSM) pot ser massa genèrica. Tu pots ser l'equilibri perfecte: tècnic, proper i amb ganes de demostrar que ets el millor.
