@@ -31,3 +31,45 @@ IMG
 Hem triat JSM inforedes com a model perquè es l´estructura més habitual  en una PIME de serveis informàtics d´uns 10 a 15 treballadors. Aqui deixem al codi PlanUML la pàgina web per veurel de manera gràfica:
 
 Enllaç: https://www.plantuml.com/plantuml/uml/SyfFKj2rKt3CoKnELR1Io4ZDoSa700001
+
+Codi ornanigrama:
+
+ @startuml
+!theme plain
+title Organigrama - Empresa de Serveis Informàtics (PIME tipus a Mataró)
+
+' Definició dels nodes
+rectangle "Direcció General / Propietari" as Dir
+rectangle "Administració\n(Finances i RRHH)" as Admin
+rectangle "Cap de Sistemes i Xarxes" as CapTecnic
+rectangle "Cap de Projectes / CTO" as CapProjectes
+rectangle "Departament Comercial\n(Vendes i Màrqueting)" as Comercial
+
+' Sub-departaments tècnics
+rectangle "Equip de Suport (Helpdesk)\n(Nivell 1 i 2)" as Suport
+rectangle "Equip de Desplegament\n(Xarxes i Hardware)" as Desplegament
+rectangle "Equip de Ciberseguretat\n(Serveis Gestionats)" as Seguretat
+
+' Relacions jeràrquiques
+Dir -down-> Admin
+Dir -down-> Comercial
+Dir -down-> CapTecnic
+Dir -down-> CapProjectes
+
+CapTecnic -down-> Suport
+CapTecnic -down-> Desplegament
+CapTecnic -down-> Seguretat
+
+' Notes explicatives (en català)
+note right of Dir
+  Pren decisions estratègiques.
+  Busca socis (SAGE, Microsoft).
+  És la cara visible.
+end note
+
+note bottom of Seguretat
+  En una PIME petita,
+  aquest rol pot ser extern
+  o compartit amb el Cap Tècnic.
+end note
+@enduml
