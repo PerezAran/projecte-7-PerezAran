@@ -28,10 +28,4 @@ En aquesta activitat, posarem en pràctica la guia de desplegament que teniu a l
 
 Al repositori del projecte crear la carpeta `T02` a dins incloure un `README.md` amb:
 
-- Una breu descripció del projecte
-- Una segona part amb la solució realitzada, indicant:
-  - L’enllaç al vostre repositori personal
-  - La URL de la pàgina
-  - Algunes captures i explicacions de les mètriques que us ofereix StatCounter
-
-Es tracta d’una activitat individual, tot i que posteriorment, haureu de triar una solució conjunta.
+https://github.com/PerezAran/web.git
