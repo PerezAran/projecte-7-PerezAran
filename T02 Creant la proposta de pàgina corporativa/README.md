@@ -29,3 +29,4 @@ En aquesta activitat, posarem en pràctica la guia de desplegament que teniu a l
 Al repositori del projecte crear la carpeta `T02` a dins incloure un `README.md` amb:
 
 https://github.com/PerezAran/web.git
+
