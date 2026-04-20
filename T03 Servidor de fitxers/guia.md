@@ -1,7 +1,3 @@
-Aquí tens l'informe complet en **format Markdown**, estructurat pas a pas amb totes les captures que m'has proporcionat.
-
----
-
 # Informe Tècnic: Infraestructura de Fitxers Segura per a FoodLogistic
 
 ## 1. Resum de Configuració
