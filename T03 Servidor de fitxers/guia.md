@@ -34,8 +34,8 @@ Es crea el grup de seguretat `Direccio`.
 
 #### A. Carpeta Public (Mètode: Explorador de fitxers)
 
-Es crea la carpeta `C:\Public` des de l'Explorador de fitxers.
-
+Es crea la carpeta `C:\Public` des de l'Explorador de fitxers. (Molt important recordar els noms de les carpetes que crearem)
+.
 ![Carpeta Public creada al disc C:](IMG/5.png)
 
 S'assignen permisos NTFS al grup `Domain Users` amb **Modificar**.
@@ -52,11 +52,11 @@ Es crea la carpeta `C:\Operacions` al servidor.
 
 ![Carpeta Operacions creada](IMG/8.png)
 
-S'obre l'assistent **New Share** al **File and Storage Services**.
+Obrim l'assistent **New Share** al **File and Storage Services**.
 
 ![Assistent New Share - Perfil SMB Share - Quick](IMG/9.png)
 
-Se selecciona el volum `C:` com a ubicació del recurs.
+Se selecciona el volum `C:` com a ubicació del recurs (que es l´ubicació on hem creat la carpeta de Operacions.)
 
 ![Selecció del volum C:](IMG/10.png)
 
