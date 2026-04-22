@@ -1,59 +1,33 @@
+# T05: Vídeo formatiu LOPD empleats – FoodLogistic
 
-# Vídeos Formatius LOPD - FoodLogistic
+## 📌 Breu descripció de l'activitat
 
-## Projecte: Dades Segures, Logística Eficient
+Dins del conjunt de peticions per part de **FoodLogistic**, se'ns ha encarregat la creació de dos materials audiovisuals per a la campanya interna de sensibilització **"Dades Segures, Logística Eficient"**.
 
-Campanya interna de sensibilització sobre protecció de dades i conformitat amb LOPD-GDD 3/2018.
+L'objectiu és que tant el personal de magatzem com els caps de Recursos Humans sàpiguen exactament què poden (i què no poden) fer amb les dades dels usuaris en el seu dia a dia. Una empresa segura és aquella on tothom sap protegir la informació.
 
----
+## 🎯 Tasques realitzades
 
-## Objectius
+### Tasca 1: El Guió i la Recerca
+Abans de gravar, hem realitzat una recerca complementària a la web de l'**AEPD** (Agència Espanyola de Protecció de Dades) per assegurar-nos que les mesures proposades compleixen amb la **LOPD-GDD 3/2018** i el **RGPD**. Hem redactat un guió detallat per a cada vídeo.
 
-Formar el personal de FoodLogistic sobre les bones pràctiques en protecció de dades personals mitjançant dos videotutorials específics.
+### Tasca 2: Producció de Vídeos
+Hem produït dos vídeos amb les següents especificacions:
 
----
+#### 🎬 Vídeo 1: "Compliment legal en el dia a dia a FoodLogistic" (General)
+- **Públic**: Tots els treballadors (magatzem, transport, oficines).
+- **Contingut obligatori**:
+  - Conceptes bàsics: introducció a la protecció de dades de caràcter personal.
+  - Ús de dispositius: bloqueig de sessió (`Windows + L`) i contrasenyes robustes.
+  - Impressió segura: evitar que documents amb dades personals quedin a la safata de la impressora.
+  - Unitats de xarxa: per què no s'han de guardar dades en local o en el núvol personal (Drive/Dropbox propi).
+  - Pendrives i USB: el perill de la infecció per malware i la pèrdua de dades no xifrades.
+  - Tractament físic: destrucció de documents amb trituradora (no a la paperera convencional).
 
-## Tasques
-
-### 1. Recerca i Guió
-- Consultar recursos de l'AEPD (Agència Espanyola de Protecció de Dades)
-- Redactar guions detallats per a cada vídeo
-- Assegurar conformitat amb normativa LOPD-GDD 3/2018
-
-### 2. Producció de Vídeos
-
-#### Vídeo 1: Compliment legal en el dia a dia a FoodLogistic
-**Durada:** 5-6 minuts | **Públic:** Tots els treballadors
-
-**Contingut obligatori:**
-- Conceptes bàsics de protecció de dades
-- Ús segur de dispositius (Windows+L, contrasenyes robustes)
-- Impressió segura de documents
-- Ús correcte d'unitats de xarxa
-- Riscos de pendrives i USB
-- Destrucció física segura de documents
-
-#### Vídeo 2: Protecció de dades a RRHH i Gestió
-**Durada:** 5-6 minuts | **Públic:** Administració i RRHH
-
-**Contingut obligatori:**
-- Recollida legal de CVs i deure de destrucció
-- Responsable vs. Encarregat de Tractament
-- Compromisos de confidencialitat (Art. 5 RGPD)
-- Gestió de drets ARSULIPO
-
----
-
-## Lliurables
-
-- [ ] Guions tècnics de dos vídeos
-- [ ] Llistat de fonts (URLs específiques de l'AEPD)
-- [ ] Dos arxius de vídeo (5-6 min cadascun)
-- [ ] Enllaç de reproducció (YouTube/Drive/Google Vids)
-
----
-
-## Recursos
-
-- Moodle del mòdul de Seguretat Informàtica
-- Web de l'AEPD
+#### 🎬 Vídeo 2: "Protecció de dades a RRHH i Gestió" (Específic)
+- **Públic**: Personal d'administració i Recursos Humans.
+- **Contingut obligatori**:
+  - El Currículum Vitae: com recollir-los legalment i el deure de destrucció un cop finalitzat el procés de selecció.
+  - Cessió de dades: diferència entre Responsable de Tractament (FoodLogistic) i Encàrrec de Tractament (la gestoria de nòmines).
+  - Confidencialitat: l'obligació de signar compromisos de confidencialitat segons l'Article 5 del RGPD.
+  - Drets dels interessats: breu menció a com gestionar una petició de dret d'accés o supressió (Drets ARSULIPO).
