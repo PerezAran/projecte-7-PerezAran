@@ -25,9 +25,10 @@ Hem produït dos vídeos amb les següents especificacions:
   - Tractament físic: destrucció de documents amb trituradora (no a la paperera convencional).
 
 #### 🎬 Vídeo 2: "Protecció de dades a RRHH i Gestió" (Específic)
-- **Públic**: Personal d'administració i Recursos Humans.
-- **Contingut obligatori**:
-  - El Currículum Vitae: com recollir-los legalment i el deure de destrucció un cop finalitzat el procés de selecció.
-  - Cessió de dades: diferència entre Responsable de Tractament (FoodLogistic) i Encàrrec de Tractament (la gestoria de nòmines).
-  - Confidencialitat: l'obligació de signar compromisos de confidencialitat segons l'Article 5 del RGPD.
-  - Drets dels interessats: breu menció a com gestionar una petició de dret d'accés o supressió (Drets ARSULIPO).
+
+Els dos vídeos produïts tenen una durada compresa entre **5 i 6 minuts** cadascun. Es valora la claredat de l'àudio, l'ús de rètols per emfatitzar conceptes clau i l'originalitat (animacions, gravacions reals o presentacions dinàmiques locutades).
+
+| Vídeo | Títol | Enllaç |
+|-------|-------|--------|
+| Vídeo 1 | Compliment legal en el dia a dia a FoodLogistic | [Accedir als vídeos](https://drive.google.com/drive/folders/1cWc2G8u0lY84zUCgNNBInLxyD0DP6up5?usp=sharing) |
+| Vídeo 2 | Protecció de dades a RRHH i Gestió | [Accedir als vídeos](https://drive.google.com/drive/folders/1cWc2G8u0lY84zUCgNNBInLxyD0DP6up5?usp=sharing) |
