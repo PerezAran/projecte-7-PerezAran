@@ -50,3 +50,7 @@ ADM -down-> "Administratiu/Financer"
 ADM -down-> "Recursos Humans (externalitzat)"
 
 @enduml
+
+* [Ir al inicio del Repositorio](./documentacion)https://github.com/classesSMX2n/projecte-7-PerezAran/tree/main/T01%20Coneixement%20la%20compet%C3%A8ncia%20i%20el%20sector
+)
+* [Ver la carpeta de Documentación](./documentacion)https://github.com/classesSMX2n/projecte-7-PerezAran/tree/main/T01%20Coneixement%20la%20compet%C3%A8ncia%20i%20el%20sector
