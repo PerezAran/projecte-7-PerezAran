@@ -52,8 +52,8 @@ El formulari s'ha actualitzat seguint el principi de "privacitat des del disseny
 3. Podràs interactuar amb el banner de cookies i els enllaços legals del footer.
 
 ---
-**Assignatura:** [Nom de l'Assignatura]  
-**Autor:** [El teu Nom]  
+**Assignatura:** Seguretat    
+**Autor:** Aran Perez
 **Data:** Abril 2026
  
 ## Link repo: https://github.com/PerezAran/web
