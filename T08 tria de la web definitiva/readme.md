@@ -4,7 +4,7 @@ Aquest document detalla el procés de reflexió, debat i consens realitzat pels 
 
 ---
 
-## 1. Reflexió Individual: Punts Forts i Febles
+## 1. Reflexió Individual: 
 
 ### **Proposta A: Marc Pérez Arán**
 **URL:** [perezaran.github.io/web/](https://perezaran.github.io/web/#)
