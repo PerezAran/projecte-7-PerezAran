@@ -1,45 +1,74 @@
-# Tasca T08: Tria de la Web Definitiva 🏢💻
+# projecte FoodLogistic
 
-## 📋 Descripció de la Tasca
-En aquesta fase del projecte, els membres de l'equip deixen de treballar de manera individual per actuar com una única **empresa de serveis informàtics**. L'objectiu és presentar a **FoodLogístic S.A.** una solució web única, professional i consensuada. 
+## Modernització de la logística alimentària a través de la tecnologia
 
-Ja no s'accepten propostes fragmentades; el client espera una proposta final que sigui tècnicament viable, estèticament professional i legalment correcta.
+![Logo del projecte FoodLogistic](pics/FoodLogisticLogo.png)
 
----
+## Autor
 
-## 🎯 Objectius del Projecte
-1.  **Treball en Equip:** Passar del disseny individual al consens empresarial.
-2.  **Comunicació Assertiva:** Defensar els arguments propis respectant i escoltant les idees dels companys.
-3.  **Qualitat Professional:** Triar o fusionar els millors elements (disseny, codi, formularis) per crear la "web perfecta".
-4.  **Compliment Legal:** Assegurar que la web final compleix amb les normatives vigents (com la RGPD).
+Nom: Ferran cuenca
 
----
+Formant grups de treball: Ferran cuenca i Aran perez 
 
-## 🛠️ Passos a Seguir
+## Descripció del projecte
 
-### Pas 1: Reflexió Individual
-Cada integrant de l'equip ha d'analitzar la seva pròpia web corporativa creada fins ara i llistar-ne els:
-* **Punts forts:** Què és el que millor funciona? (Disseny, velocitat, claredat).
-* **Punts febles:** Què li falta o què es podria millorar segons les demandes del client?
+"FoodLogístic S.A." és una empresa capdavantera en la distribució i logística alimentària a nivell nacional. Arran de l'obertura de noves rutes i la contractació de més personal, el seu volum de dades i les seves necessitats de comunicació s'han multiplicat.
 
-### Pas 2: Debat i Contrast d'Idees
-Reunió d'equip per posar en comú les reflexions. Cada membre defensa la seva proposta utilitzant una comunicació assertiva, analitzant quina solució s'adapta millor a les necessitats de FoodLogístic S.A.
+La seva infraestructura actual s'ha quedat petita i pateixen per la seguretat i la continuïtat del negoci. Han contactat amb la vostra empresa informàtica perquè els ajudeu a modernitzar-se. Us demanen actuar en tres àrees clau:
 
-### Pas 3: Negociació i Consens Final
-L'equip ha d'arribar a un acord definitiu. Es pot:
-* Triar una de les webs existents com a base definitiva.
-* **Fusionar propostes:** Agafar el millor de cada disseny (ex: el formulari d'una i l'estètica d'una altra).
+Al Moodle teniu l'enllaç al document amb l'enunciat del projecte.
 
----
+### Dades legals i corporatives de "FoodLogistic S.A."
 
-## 📤 Què cal lliurar?
-Per completar la tasca correctament, cal presentar un document que contingui:
-1.  **Reflexions individuals:** Els punts forts i febles detectats per cada alumne.
-2.  **Informe de negociació:** Un breu resum de com ha anat el debat i quins acords s'han pres.
-3.  **Justificació de la tria:** Per què s'ha escollit aquesta solució i quins beneficis aporta al client.
+**Raó social:** FoodLogistic S.A.
+**NIF:** A08123456
+**Adreça:**  Carrer de la Teixidora, núm. 13, 08302 Mataró Barcelona.
+**Inscripció Registral:** Inscrita al Registre Mercantil de Barcelona, Tom 45678, Foli 120, Full B-567890, Inscripció 1a.
+**Correu electrònic de contacte:** <info@foodlogistic.com>
+**Telèfon:** +34 935 55 55 55
+**Nombre de treballadors:** 35
+**Facturació darrer any:** 25 milions d’euros.
 
----
+## Instruccions (per eliminar abans de lliurar el projecte)
 
-## 🔗 Recursos d'interès
-* [Guia de Comunicació Assertiva](https://ca.wikipedia.org/wiki/Assertivitat)
-* [Repositori del Projecte a GitHub](https://github.com/SMX2n/Projecte7-GitHubPages)
+Un cop teniu la vostra còpia d'aquest repositori, heu de seguir els passos següents:
+
+1. **Editar aquest fitxer README.md**
+    - Incloure el vostre nom i els noms dels membres del grup.
+
+1. **Organització del repositori:**
+   - Cada activitat ha d'estar dins d'una carpeta titulada Tasca01, Tasca02, etc.
+   - Dins de cada carpeta de tasca, heu d'incloure un arxiu README.md amb la descripció detallada de l'activitat realitzada.
+
+text
+
+projecte7/
+├── README.md (aquest arxiu)
+├── Tasca01/
+│   └── README.md
+├── Tasca02/
+│   └── README.md
+├── Tasca03/
+│   └── README.md
+└── ...
+
+
+
+1. **Procediment de treball:**
+   - A mesura que completeu cada tasca, actualitzeu el vostre repositori local amb els canvis.
+   - Cada dia, abans de finalitzar la jornada, pugeu els canvis al  repositori remot a GitHub.
+
+1. **Esborrar secció instruccions:**
+    - Un cop hàgiu completat la creació de les carpetes i actualitzat el vostre README.md, ja podeu eliminar aquesta secció d'instruccions per a una millor presentació del vostre projecte.
+
+1. **Logotips, imatges i empresa pròpia**
+    - El logotip de l'empresa client "FoodLogistic S.A." es troba a la carpeta pics i el que hauríeu d'utilitzar en el vostre projecte: web, proposta, etc.
+    - Pel que respecte la vostra empresa, podeu reaprofitar els logotips i noms que heu creat en projectes anteriors o crear-ne de nous. Recordeu que el nom de la vostra empresa i el logotip són elements importants per a la vostra identitat corporativa, així que trieu-los amb cura!
+
+## Guies Git i GitHub
+
+[Introducció a Git i GitHub](https://github.com/SMX2n/IntroGitHub)
+[Control de versions: Git](https://github.com/SMX2n/ControlVersions)
+[Guia GitHub Classroom](https://github.com/SMX2n/guia-github-classroom)
+
+Bona sort! 🚀
