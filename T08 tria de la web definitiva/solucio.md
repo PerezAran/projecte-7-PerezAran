@@ -60,4 +60,4 @@ D'altra banda, la web de l’Aran s’ha defensat com una opció molt més direc
 
 ## Elecció de la Web Definitiva i Justificació
 
-
+El nostre projecte fa un salt endavant prenent com a referència la web creada per l’Aran, que ens serveix de base i inspiració. L'objectiu no és descartar la feina feta, sinó evolucionar-la cap a una versió més professional, segura i optimitzada. Ens centrarem a millorar l’experiència d’usuari i a polir aspectes tècnics clau com la velocitat i la navegació. A més, regularitzarem tota la part legal, des del banner de cookies fins a les polítiques de privacitat, per garantir la màxima confiança. Construint sobre els fonaments de l’Aran, aconseguirem una eina definitiva, sòlida i totalment preparada per al mercat actual.
