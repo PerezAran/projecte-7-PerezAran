@@ -60,6 +60,4 @@ D'altra banda, la web de l’Aran s’ha defensat com una opció molt més direc
 
 ## Elecció de la Web Definitiva i Justificació
 
-Finalment, després de ponderar els punts forts i febles de cada opció, hem decidit que la web definitiva serà la de **l’Aran**, però no serà la mateixa, es a dir, millorarem algunes coses sobre les polítiques de privacitat, al banner de cookies etc. 
 
-L

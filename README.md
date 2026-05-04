@@ -6,7 +6,7 @@
 
 ## Autor
 
-Nom: Ferran cuenca
+Nom: Aran Perez
 
 Formant grups de treball: Ferran cuenca i Aran perez 
 
@@ -39,20 +39,6 @@ Un cop teniu la vostra còpia d'aquest repositori, heu de seguir els passos seg�
 1. **Organització del repositori:**
    - Cada activitat ha d'estar dins d'una carpeta titulada Tasca01, Tasca02, etc.
    - Dins de cada carpeta de tasca, heu d'incloure un arxiu README.md amb la descripció detallada de l'activitat realitzada.
-
-text
-
-projecte7/
-├── README.md (aquest arxiu)
-├── Tasca01/
-│   └── README.md
-├── Tasca02/
-│   └── README.md
-├── Tasca03/
-│   └── README.md
-└── ...
-
-
 
 1. **Procediment de treball:**
    - A mesura que completeu cada tasca, actualitzeu el vostre repositori local amb els canvis.
