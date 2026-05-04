@@ -98,9 +98,9 @@ Estructura de carpetes i configuració de permisos:
 | **Quota carpeta Public** | FSRM | 200 MB (Hard Quota) |
 | **Bloqueig d'arxius** | FSRM | .exe, .msi, .mp3, .mp4 |
 
-![Inici de sessió amb u_xofer](IMG/3.png)
-![Inici de sessió amb u_xofer](IMG/4.png)
-![Inici de sessió amb u_xofer](IMG/5.png)
+![Inici de sessió amb u_xofer](img/3.png)
+![Inici de sessió amb u_xofer](img/4.png)
+![Inici de sessió amb u_xofer](img/5.png)
 ---
 
 ### 3.1.2 Servidor d'impressió 
@@ -117,7 +117,7 @@ Per modernitzar el sistema de comunicacions de FoodLogistic S.A., s'ha optat per
 *   **Col·laboració en temps real:** Implementació d'eines de videoconferència i xat corporatiu per connectar el magatzem de Mataró amb la flota de transport.
 *   **Sincronització Cloud:** Configuració d'un espai compartit al núvol per a documents d'alta disponibilitat que requereixen accés extern fora del polígon.
 
-![Inici de sessió amb u_xofer](IMG/7.png)
+![Inici de sessió amb u_xofer](img/7.png)
 
 ### 3.3 Seguretat i LOPD 
 Com que FoodLogistic gestiona dades de clients i proveïdors, la seguretat és un pilar crític del projecte.
