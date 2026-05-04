@@ -1,0 +1,1 @@
+Al readme de aquesta tasca es la P01: https://github.com/classesSMX2n/projecte-7-PerezAran/tree/main/P01%20Mem%C3%B2ria%20T%C3%A8cnica
