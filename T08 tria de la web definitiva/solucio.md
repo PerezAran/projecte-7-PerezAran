@@ -50,14 +50,18 @@
 
 ## Debat
 
-Durant al debat, vam estar parlant sobre quina web es veia més cla, tot al tema de les coockies, la política de privacitat etc.
+Durant el procés d'anàlisi per escollir la web definitiva, hem dut a terme un debat centrat en la funcionalitat, l’estètica i l’experiència d’usuari de les dues propostes finalistes: la web de l’Aran i la d’en Ferran.
 
 En el cas de la web d'en Ferran, hem destacat la seva estètica corporativa i una navegació molt intuïtiva, ideal per a empreses que busquen transmetre confiança. Tot i això, el debat ha posat de manifest que presentava algunes mancances en l'apartat tècnic i legal, com la falta de validació en els formularis de contacte i l'absència de polítiques de protecció de dades (RGPD), a més d'una falta de "prova social" que validés els seus serveis.
 
 D'altra banda, la web de l’Aran s’ha defensat com una opció molt més directa i optimitzada tecnològicament. S'ha valorat molt positivament el seu disseny "Single Page" i la seva excel·lent adaptabilitat a dispositius mòbils. Tot i ser més estàtica, hem debatut que la seva base estructural és més sòlida per a un perfil tecnològic.
 
+## Elecció de la Web Definitiva i Justificació
+Finalment, després de ponderar els punts forts i febles de cada opció, hem decidit que la web definitiva serà la de l’Aran.
+
+L’elecció es basa principalment en l’**eficiència i la claredat**. Considerem que l’estructura d’una sola pàgina és la més adequada per captar l’atenció de l’usuari de manera immediata, facilitant que tota la informació rellevant (perfil, projectes i contacte) sigui accessible sense navegacions complexes. A més, el seu disseny net i modern transmet una imatge de professionalitat que s'ajusta perfectament als estàndards actuals del sector.
+
+Ens quedem amb aquesta proposta perquè, tot i tenir punts de millora en l'interactivitat i el contingut de text, ofereix una base tècnica més robusta i neta. Creiem que és més senzill potenciar l'storytelling i el SEO sobre la base de l'Aran que no pas corregir els problemes estructurals i de validació de la proposta corporativa. És, en definitiva, una eina més eficaç, funcional i preparada per créixer.
+
 ---
 
-## Elecció de la Web Definitiva i Justificació
-
-El nostre projecte fa un salt endavant prenent com a referència la web creada per l’Aran, que ens serveix de base i inspiració. L'objectiu no és descartar la feina feta, sinó evolucionar-la cap a una versió més professional, segura i optimitzada. Ens centrarem a millorar l’experiència d’usuari i a polir aspectes tècnics clau com la velocitat i la navegació. A més, regularitzarem tota la part legal, des del banner de cookies fins a les polítiques de privacitat, per garantir la màxima confiança. Construint sobre els fonaments de l’Aran, aconseguirem una eina definitiva, sòlida i totalment preparada per al mercat actual.
