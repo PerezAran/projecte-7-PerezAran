@@ -1,4 +1,4 @@
-## Enllaç repositori: 
+## Enllaç web corporativa definitiva: 
 https://github.com/classesSMX2n/web-projecte7-PerezAran
 
 ## Enllç T08: 
