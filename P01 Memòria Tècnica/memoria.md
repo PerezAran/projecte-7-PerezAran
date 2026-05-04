@@ -212,11 +212,12 @@ A continuació es detallen els costos associats a la fase d'implantació inicial
 
 ---
 
-A continuació tens les **Conclusions** finals del projecte, redactades de manera sintètica i professional per tancar la memòria:
+### 5. Diagrama 
 
+![Captura de mètriques i estadístiques](img/8.png)
 ---
 
-## 5. Conclusions
+## 6. Conclusions
 
 La modernització tecnològica de **FoodLogistic S.A.** representa un salt qualitatiu en la gestió operativa i la seguretat de la companyia. Un cop analitzada la implementació i els resultats obtinguts, s'extreuen les següents conclusions:
 
