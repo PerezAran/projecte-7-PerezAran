@@ -1,0 +1,58 @@
+@startgantt
+title Projecte FoodLogístics S.A. | Planificació Completa Abril 2026
+language ca
+
+' --- CONFIGURACIÓ DE CALENDARI ---
+project starts 2026-04-07
+saturday are closed
+sunday are closed
+
+' Zoom ajustat per veure tot el mes amb claredat
+projectscale daily zoom 1.8
+
+' --- ESTILS PROFESSIONALS ---
+<style>
+ganttDiagram {
+    task {
+        BackGroundColor #4a90e2
+        LineColor #2c3e50
+    }
+    milestone {
+        BackGroundColor #e74c3c
+    }
+}
+</style>
+
+' --- FASE 1: ANÀLISI I DISSENY (SETMANA 1) ---
+-- FASE 1: Anàlisi i Fonaments --
+[T01: Anàlisi de Requeriments] lasts 4 days
+[T02: Disseny de Xarxa i IP] lasts 3 days
+[T01] -> [T02]
+
+' --- FASE 2: INFRAESTRUCTURA CORE (SETMANA 2) ---
+-- FASE 2: Desplegament de Core --
+[T03: Configuració OS i Virtualització] lasts 5 days
+[T02] -> [T03]
+
+' --- FASE 3: SERVEIS CRÍTICS (SETMANA 2 i 3) ---
+-- FASE 3: Serveis i Aplicacions --
+[T04: Servidor Web i Aplicació] lasts 6 days
+[T05: Gestió de Base de Dades] lasts 8 days
+[T03] -> [T04]
+[T03] -> [T05]
+
+' --- FASE 4: SEGURETAT I FINALITZACIÓ (SETMANA 3) ---
+-- FASE 4: Seguretat i Lliurament --
+[T06: Servidor de Correu] lasts 6 days
+[T05] -> [T06]
+
+[T07: Seguretat i Firewall] lasts 4 days
+[T04] -> [T07]
+[T06] -> [T07]
+
+[T08: Backups i Documentació Final] lasts 5 days
+[T07] -> [T08]
+
+' --- FINAL DEL PROJECTE ---
+[ENTREGA FINAL DEL PROJECTE] happens 2026-04-29
+@endgantt
