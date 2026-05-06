@@ -225,7 +225,7 @@ Com que FoodLogistic gestiona dades de clients (restaurants, supermercats) i pro
 | **Mesures de seguretat** | Xifratge, control d'accés, backups diaris |
 ---
 
-## 4. Conclusions
+### 4. Conclusions
 
 S'ha implementat amb èxit una infraestructura de fitxers segura per a FoodLogistic que compleix els següents requisits:
 
