@@ -301,7 +301,7 @@ S'assignen permisos NTFS al grup `Transport` amb **Full Control**.
 
 Vista final dels permisos NTFS assignats a `Transport`.
 
-![Permisos NTFS confirmats per a Transport](IMG/14.png)
+![Permisos NTFS confirmats per a Transport](/T03-Servidor-de-fitxers/IMG/14.png)
 
 Resum de la configuració abans de crear el recurs.
 
