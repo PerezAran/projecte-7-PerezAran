@@ -14,18 +14,18 @@
 ## 📑 Índex de continguts
 
 1. [Introducció](#1-Introducció)
-2. [Anàlisi de necessitats](#2-Anàlisi de necessitats)
-3. Proposta de solució
+2. [Anàlisi de necessitats](#2-Anàlisi-de-necessitats)
+3. [Proposta de solució](#3-Proposta-de-solució)
    - 3.1 Infraestructura (T01, T03, T04)
    - 3.2 Serveis al núvol (T07)
    - 3.3 Seguretat i LOPD (T05, T06)
    - 3.4 Presència web (T02)
-4. Arquitectura i disseny tècnic
-5. Implementació de la web i evidències
-6. Pressupost
-7. Planificació (cronograma)
-8. Conclusions
-9. Annexos (glossari, referències legals)
+   - Tasca completa
+4. [Arquitectura i disseny tècnic](#4-Arquitectura-i-disseny)
+5. [Implementació de la web i evidències](#5-Implementació-de-la-web-i-evidències)
+6. [Pressupost](#6-Pressupost)
+7. [Planificació](#7-Planificació)
+8. [Conclusions](8-Conclusions)
 
 ---
 
