@@ -13,7 +13,7 @@
 
 ## 📑 Índex de continguts
 
-1. [Introducció](f)
+1. [Introducció](#1-Introducció)
 2. Anàlisi de necessitats
 3. Proposta de solució
    - 3.1 Infraestructura (T01, T03, T04)
