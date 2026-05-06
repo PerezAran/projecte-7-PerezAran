@@ -3,7 +3,7 @@
 
 ## Introducció
 
-En el context del creixement empresarial de FoodLogistic, la gestió descentralitzada de dades ha generat inconsistencies operacionals. Aquest projecte implementa una infraestructura de fitxers centralitzada, segura i amb control d'espai mitjançant permisos NTFS/SMB, quotes i filtratge avançat de recursos (FSRM).
+En el context del creixement empresarial de FoodLogistic, la gestió descentralitzada de dades ha generat inconsistencies operacionals. Aquest projecte implementa una infraestructura de fitxers centralitzada, segura i amb control d'espai mitjançant permisos NTFS/SMB, quotes i filtratge avançat de recursos (FSRM).a
 
 ## Objectius
 
