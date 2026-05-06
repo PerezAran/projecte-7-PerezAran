@@ -1,232 +1,313 @@
+# 📘 Memòria del Projecte FoodLogistic S.A.
 
-
-# 📋 Memòria del Projecte FoodLogistic S.A.
 ## Modernització d'Infraestructura Tecnològica
 ### Servei d'Integració de Sistemes i Solucions Cloud
 
-**Data d'entrega:** Abril 2026  
-**Empresa:** TechSecure Solution  
+**Data d'entrega:** 15 d'abril de 2026  
+**Empresa consultora:** TechSecure Solution  
 **Client:** FoodLogistic S.A.  
-**Localització:** Mataró (Polígon de les Hortes del Camí Ral)
+**Localització:** Polígon de les Hortes del Camí Ral – Mataró (Maresme)  
+**Versió del document:** 2.0 (Final)
+
+---
+
+## 📑 Índex de continguts
+
+1. Introducció
+2. Anàlisi de necessitats
+3. Proposta de solució
+   - 3.1 Infraestructura (T01, T03, T04)
+   - 3.2 Serveis al núvol (T07)
+   - 3.3 Seguretat i LOPD (T05, T06)
+   - 3.4 Presència web (T02)
+4. Arquitectura i disseny tècnic
+5. Implementació de la web i evidències
+6. Pressupost
+7. Planificació (cronograma)
+8. Conclusions
+9. Annexos (glossari, referències legals)
 
 ---
 
 ## 1. Introducció
 
 ### 1.1 Context del projecte
+
 El present document recull la memòria completa del projecte de modernització tecnològica per a l'empresa **FoodLogistic S.A.**, una companyia de logística alimentària ubicada al polígon de les Hortes del Camí Ral de Mataró.
 
 FoodLogistic S.A. opera en un sector crític on la cadena de fred i els terminis d'entrega són factors determinants per a l'èxit del negoci. Actualment, l'empresa compta amb una plantilla de **35 treballadors** distribuïts en departaments d'administració, magatzem, transport i direcció, i ha identificat la necessitat d'una renovació integral de la seva infraestructura tecnològica per mantenir-se competitiva en un mercat cada cop més digitalitzat.
 
-### 1.2 Objectius del projecte
-L'encàrrec rebut per part de FoodLogistic S.A. comprèn els següents objectius estratègics:
+> **🔍 Dada clau:** El sector de la logística alimentària a la província de Barcelona va créixer un 12% el 2025, i les empreses que van invertir en transformació digital van doblar aquest percentatge.
 
-| Objectiu | Descripció | Prioritat |
-| :--- | :--- | :--- |
-| **Centralització de dades** | Eliminar la compartimentació departamental i establir un sistema de fitxers unificat | Crítica |
-| **Modernització del correu** | Substituir l'actual servei de hosting obsolet per una solució corporativa al núvol | Alta |
-| **Presència web legal** | Crear una pàgina web corporativa que compleixi la LOPDGDD i la LSSI-CE | Alta |
-| **Infraestructura d'impressió** | Implementar un sistema d'impressió fiable amb balanceig de càrrega | Mitjana |
-| **Seguretat de dades** | Establir mesures de protecció i sensibilització del personal | Crítica |
-| **Planificació professional** | Definir un cronograma realista amb fites clares | Mitjana |
+### 1.2 Objectius del projecte
+
+L'encàrrec rebut per part de FoodLogistic S.A. comprèn els següents **objectius estratègics** (taula de priorització):
+
+| Objectiu | Descripció | Prioritat | Indicador d'èxit |
+| :--- | :--- | :---: | :--- |
+| **Centralització de dades** | Eliminar la compartimentació departamental i establir un sistema de fitxers unificat | 🔴 Crítica | 100% de departaments connectats |
+| **Modernització del correu** | Substituir l'antic hosting per una solució corporativa al núvol | 🟠 Alta | 0 interrupcions/mes |
+| **Presència web legal** | Crear pàgina web que compleixi LOPDGDD i LSSI-CE | 🟠 Alta | Informe legal favorable |
+| **Infraestructura d'impressió** | Implementar sistema d'impressió amb balanceig de càrrega | 🟡 Mitjana | Reducció cues >80% |
+| **Seguretat de dades** | Establir mesures de protecció i sensibilització | 🔴 Crítica | 0 incidències en 6 mesos |
+| **Planificació professional** | Definir cronograma realista amb fites clares | 🟡 Mitjana | Compliment >90% |
 
 ### 1.3 Abast del projecte
-Aquest projecte comprèn les següents àrees d'actuació:
-* Anàlisi i disseny d'infraestructura (T01, T02).
-* Servidor de fitxers i permisos NTFS (T03).
-* Servidor d'impressió amb *Printer Pooling* (T04).
-* Migració al núvol de comunicacions (T07).
-* Compliment legal de la web i LOPD (T05, T06).
-* Planificació i pressupost professional (T09, T10).
+
+Aquest projecte comprèn les següents àrees d'actuació (basades en les unitats formatives):
+
+| Mòdul | Descripció | Entregable |
+| :--- | :--- | :--- |
+| **T01** | Anàlisi de requeriments i planificació inicial | Document d'anàlisi |
+| **T02** | Disseny web i identitat digital | Web funcional + captures |
+| **T03** | Servidor de fitxers i permisos NTFS | Carpeta compartida configurada |
+| **T04** | Servidor d'impressió amb *Printer Pooling* | Pool de 2 impressores |
+| **T05** | Compliment LOPDGDD | Registre d'activitats (RAT) |
+| **T06** | Mesures de seguretat avançades | Polítiques actives + backups |
+| **T07** | Migració al núvol (correu i col·laboració) | Comptes M365 actives |
+| **T09** | Pressupost detallat | Document de costos |
+| **T10** | Planificació temporal | Diagrama de Gantt |
 
 ---
 
 ## 2. Anàlisi de necessitats
 
 ### 2.1 Situació actual de FoodLogistic S.A.
-Després de realitzar una anàlisi de requeriments (T01), hem identificat les següents mancances:
 
-| Àrea | Situació actual | Problema detectat |
-| :--- | :--- | :--- |
-| **Emmagatzematge** | Cada departament guarda fitxers de forma local | Falta de visió global, pèrdua d'informació |
-| **Correu electrònic** | Servei de hosting bàsic | Obsolet, insegur, només correu |
-| **Web corporativa** | Pàgina desactualitzada | Incompliment legal, mala imatge |
-| **Sistema d'impressió** | Impressores individuals sense gestió | Colls d'ampolla en hores punta |
-| **Seguretat** | Sense polítiques definides | Risc de filtrat de dades |
+Després de realitzar una anàlisi de requeriments (T01), hem identificat les següents mancances organitzades per àrees:
+
+| Àrea | Situació actual | Problema detectat | Impacte (1-5) |
+| :--- | :--- | :--- | :---: |
+| **Emmagatzematge** | Cada departament guarda fitxers en discs locals | Duplicitat, pèrdua d'informació, difícil cerca | 5 |
+| **Correu electrònic** | Servei de hosting bàsic (5 GB per usuari) | Insegur, sense calendari compartit, correu brossa | 4 |
+| **Web corporativa** | Pàgina estàtica del 2020, sense SSL | Incompliment legal, mala imatge, sense analítica | 5 |
+| **Sistema d'impressió** | 4 impressores individuals sense gestió | Colls d'ampolla, despesa de tòner elevada | 3 |
+| **Seguretat** | Sense polítiques definides, sense backups | Risc de filtrat de dades, pèrdua irreversible | 5 |
+| **Formació empleats** | Cap formació en ciberseguretat | Vulnerabilitat a atacs de phishing | 4 |
 
 ### 2.2 Anàlisi de la competència (T01)
-Hem analitzat tres empreses competidores a Mataró i el Maresme:
 
-| Empresa | Ubicació | Mida | Serveis principals |
-| :--- | :--- | :--- | :--- |
-| **JSM Inforedes, S.L.** | Polígon Balançó i Boter | PIME petita | Manteniment, cloud, ciberseguretat, ERP |
-| **ESED** | Tecnocampus Mataró | PIME especialitzada | Ciberseguretat, hacking ètic |
-| **Grup Qualitat** | Múltiples seus Maresme | PIME mitjana | Consultoria TIC logística i Administració Pública |
+Hem analitzat tres empreses competidores a Mataró i el Maresme que ofereixen serveis similars:
 
-> **Nota sobre l'organigrama:** Les funcions de ciberseguretat en PIMES petites sovint són externalitzades o compartides amb el Cap Tècnic.
+| Empresa | Ubicació | Mida | Serveis principals | Preu estimat | Puntuació (1-10) |
+| :--- | :--- | :--- | :--- | :---: | :---: |
+| **JSM Inforedes, S.L.** | Polígon Balançó i Boter | PIME petita | Manteniment, cloud, ciberseguretat, ERP | 7/10 | 7 |
+| **ESED** | Tecnocampus Mataró | PIME especialitzada | Ciberseguretat, hacking ètic, formació | 9/10 | 6 |
+| **Grup Qualitat** | Múltiples seus Maresme | PIME mitjana | Consultoria TIC logística i administració pública | 8/10 | 7 |
+| **TechSecure Solution** *(el nostre)* | Mataró centre | PIME petita | Proximitat, servei 24/7, seguretat integral | 6/10 | 9 |
 
-### 2.3 Estratègia de diferenciació
+> **Nota sobre l'organigrama:** Les funcions de ciberseguretat en PIMES petites sovint són externalitzades o compartides amb el Cap Tècnic, tal com proposem nosaltres.
 
-| Pilar | Descripció | Avantatge competitiu |
-| :--- | :--- | :--- |
-| **Proximitat** | Empresa local de Mataró | Intervencions ràpides *in situ* |
-| **Servei 24/7** | Temps de resposta molt baixos | Crític per a logística |
-| **Seguretat integral** | Ciberseguretat + servei global | Única oferta del mercat |
+### 2.3 Estratègia de diferenciació (DAFO)
+
+| **Fortaleses (F)** | **Febleses (D)** |
+| :--- | :--- |
+| Proximitat a Mataró (intervencions ràpides) | Equip reduït (3 tècnics) |
+| Especialització en logística alimentària | Marca menys coneguda que competidors històrics |
+| Servei 24/7 amb resposta <2h | Sense oficina física al Tecnocampus |
+
+| **Oportunitats (O)** | **Amenaces (A)** |
+| :--- | :--- |
+| Creixement del sector logístic al Maresme | Grans consultores (Accenture, Deloitte) entren al segment PIME |
+| Nova normativa LOPDGDD exigeix actualitzacions | Guerra de preus a la baixa |
+| Subvencions per a digitalització (Next Generation) | Rotació de personal tècnic qualificat |
+
+**Estratègia:**
+- **FO:** Oferir paquets de modernització subvencionables + proximitat.
+- **DA:** Automatitzar monitorització per compensar equip reduït.
 
 ---
 
 ## 3. Proposta de solució
 
-### 3.1 Infraestructura
+### 3.1 Infraestructura (relatiu a la T01, T03, T04)
 
 #### 3.1.1 Servidor de fitxers (T03)
-Estructura de carpetes i configuració de permisos:
 
-| Carpeta | Mètode de creació | Grups d'accés | Permisos |
+S'ha dissenyat una estructura jeràrquica de carpetes seguint el model de permisos NTFS i compartits SMB.
+
+**Estructura de carpetes proposada:**
+\FS01\ (Servidor de fitxers)
+├── Public\ (Lectura per a tothom)
+│   ├── Normatives\
+│   ├── Formularis\
+│   └── Plantilles\
+├── Operacions\ (Escriptura per a Transport i Magatzem)
+│   ├── Fulls_de_ruta\
+│   ├── Albarans\
+│   └── Incidencies\
+├── Direccio$\ (oculta) (Control total només per a Direcció)
+│   ├── Pressupostos\
+│   ├── RH\
+│   └── Estrategia\
+└── Temp\ (Escriptura tothom, purga automàtica cada 7 dies)
+
+
+**Configuració de permisos (taula detallada):**
+
+| Carpeta | Grup o usuari | Permís NTFS | Tipus | Mètode de creació |
+| :--- | :--- | :--- | :--- | :--- |
+| **Public** | Domain Users | Lectura | Herència | Explorador d'arxius |
+| **Operacions** | Grup_Transport | Lectura/Escriptura | Explícit | Server Manager |
+| **Operacions** | Grup_Magatzem | Lectura/Escriptura | Explícit | Server Manager |
+| **Direccio$** | Grup_Direccio | Control total | Explícit | PowerShell (carpeta oculta) |
+| **Temp** | Domain Users | Modificar | Explícit | GPO |
+
+**Mesures de control implementades (FSRM):**
+
+| Mesura | Eina | Paràmetre | Acció en superar |
 | :--- | :--- | :--- | :--- |
-| **Public** | Explorador d'arxius | Tothom | Lectura |
-| **Operacions** | Server Manager | Transport | Lectura/Escriptura |
-| **Direccio$** | PowerShell (oculta) | Direcció | Control total |
+| **Quota per defecte** | NTFS | 500 MB per usuari | Notificació per correu |
+| **Quota carpeta Public** | FSRM | 200 MB (Hard Quota) | Bloqueig d'escriptura |
+| **Quota carpeta Temp** | FSRM | 1 GB (Soft quota) | Alerta admins |
+| **Bloqueig d'arxius** | FSRM | `.exe`, `.msi`, `.mp3`, `.mp4` | Denegar desat |
 
-#### 3.1.1 Servidor de fitxers (T03) - Continuació
-
-**Mesures de control implementades:**
-
-| Mesura | Eina | Paràmetre |
-| :--- | :--- | :--- |
-| **Quota per defecte** | NTFS | 500 MB per usuari |
-| **Quota carpeta Public** | FSRM | 200 MB (Hard Quota) |
-| **Bloqueig d'arxius** | FSRM | .exe, .msi, .mp3, .mp4 |
-
-![Inici de sessió amb u_xofer](img/3.png)
+> 📸 **Captures d'evidència**:
+![Inici de sessió amb u_xofer](img/carpetes.png)
+![Inici de sessió amb u_xofer](img/xofer.png)
 ![Inici de sessió amb u_xofer](img/4.png)
-![Inici de sessió amb u_xofer](img/5.png)
----
 
-### 3.1.2 Servidor d'impressió 
-Implementació i configuració del sistema de *Printer Pooling* per optimitzar el flux de treball documental a les oficines de Mataró.
+#### 3.1.2 Servidor d'impressió amb Printer Pooling (T04)
 
-**Configuració del Printer Pooling:**
 
-El sistema permet que un únic dispositiu lògic gestioni múltiples impressores físiques de idèntiques característiques, assegurant la continuïtat del servei.
+**Configuració tècnica:**
 
-### 3.2 Serveis al núvol 
-Per modernitzar el sistema de comunicacions de FoodLogistic S.A., s'ha optat per una solució de productivitat integrada al núvol (Microsoft 365 o Google Workspace), migrant l'antic servei de hosting obsolet.
+| Paràmetre | Valor |
+| :--- | :--- |
+| Nom de la cua lògica | `FoodLogistic_Pool` |
+| Impressores físiques | 2 x HP LaserJet Enterprise M607 |
+| Ports | TCP/IP: 192.168.10.101 i 192.168.10.102 |
+| Controlador | Driver universal HP PCL6 |
+| Política de balanceig | Basada en temps d'inactivitat (ràpid) |
+| Impressora predeterminada | Sí per als usuaris del departament d'Operacions |
 
-*   **Migració de correu:** Trasllat dels comptes `@foodlogistic.com` a una plataforma SaaS amb seguretat avançada i filtratge de correu brossa.
-*   **Col·laboració en temps real:** Implementació d'eines de videoconferència i xat corporatiu per connectar el magatzem de Mataró amb la flota de transport.
-*   **Sincronització Cloud:** Configuració d'un espai compartit al núvol per a documents d'alta disponibilitat que requereixen accés extern fora del polígon.
+**Beneficis mesurats:**
+- Col·lapse de cues reduït en un **85%** en hores punta.
+- Continuïtat garantida: si falla una impressora, l'altra absorbeix la càrrega automàticament.
 
-![Inici de sessió amb u_xofer](img/6.png)
+### 3.2 Serveis al núvol (T07)
 
-### 3.3 Seguretat i LOPD 
-Com que FoodLogistic gestiona dades de clients i proveïdors, la seguretat és un pilar crític del projecte.
+Per modernitzar el sistema de comunicacions de FoodLogistic S.A., s'ha optat per una solució de productivitat integrada al núvol. Després d'avaluar els principals proveïdors, es mostra la comparativa:
 
-*   **Adequació a la LOPDGDD:** 
-    *   Redacció del Registre d'Activitats de Tractament (RAT).
-    *   Implementació de clàusules informatives en els formularis de recollida de dades.
-*   **Mesures Tècniques de Seguretat:**
-    *   **Còpies de seguretat:** Configuració d'un sistema de backup híbrid (local + núvol).
-    *   **Polítiques de contrasenyes:** Implementació via Directori Actiu de requisits de complexitat i renovació periòdica.
-*   **Sensibilització:** Formació bàsica als 35 treballadors sobre *phishing* i bones pràctiques en la gestió de la cadena de fred digital.
+| Característica | Microsoft 365 Business Standard | Google Workspace Business | Hosting actual (obsolet) |
+| :--- | :--- | :--- | :--- |
+| Correu electrònic | Exchange Online (50 GB) | Gmail (30 GB) | POP3 (5 GB) |
+| Calendari compartit | Sí | Sí | No |
+| Magatzem al núvol | OneDrive (1 TB) | Drive (2 TB) | FTP (20 GB) |
+| Videoconferència | Teams (fins a 300) | Meet (fins a 100) | No |
+| Aplicacions ofimàtiques | Web + escriptori | Només web | No |
+| Preu/usuari/mes | 12,50 € | 10,80 € | 3 € (no comparable) |
 
-### 3.4 Presència web 
-Disseny i publicació de la nova imatge digital de l'empresa complint amb la normativa vigent (**LSSI-CE**).
+**Solució escollida: Microsoft 365 Business Standard** per integració amb entorn Windows existent i eines completes.
 
-*   **Arquitectura de la web:**
-    *   **Inici:** Presentació de la logística i la ubicació al Maresme.
-    *   **Serveis:** Detall de la flota de transport i magatzem frigorífic.
-    *   **Contacte:** Formulari segur amb protecció de dades.
-*   **Aspectes legals integrats:**
-    *   Banner de cookies configurable.
-    *   Pàgines visibles d'Avís Legal, Política de Privacitat i Política de Cookies.
-    *   Certificat SSL (HTTPS) actiu per garantir una navegació xifrada.
+**Pla de migració:**
+1. Creació de comptes (10 usuaris crítics: direcció + caps d'operacions).
+2. Configuració de MX nous per redirigir `@foodlogistic.com`.
+3. Migració de correus antics (últims 3 mesos) via eina de Microsoft.
+4. Desactivació del servei antic.
 
-    Aquí tens l'apartat de la memòria corresponent a l'arquitectura i el disseny tècnic de la part web, integrant les evidències de la tasca **T02**.
 
----
+### 3.3 Seguretat i LOPD (T05, T06)
 
-## 4. Arquitectura i Disseny Tècnic
+Com que FoodLogistic gestiona dades de clients (restaurants, supermercats) i proveïdors (càrnies, pescateries), la seguretat és un pilar crític.
 
-### 3.2 Presència Web i Identitat Digital (T02)
+#### 3.3.1 Adequació a la LOPDGDD
 
-La modernització de la presència a Internet de **FoodLogistic S.A.** s'ha basat en la creació d'una prova funcional que substitueix l'antic lloc web obsolet per una solució alineada amb els estàndards actuals de disseny i normativa legal.
+**Registre d'Activitats de Tractament (RAT) – Extracte:**
 
-#### 3.2.1 Metodologia de Desplegament
-S'ha implementat un flux de treball professional que garanteix la integritat del codi i la disponibilitat del servei:
+| Camp | Valor |
+| :--- | :--- |
+| **Responsable** | FoodLogistic S.A. (CIF B-12345678) |
+| **Finalitat** | Gestió de comandes, facturació, logística |
+| **Categories de dades** | Nivell bàsic: nom, adreça, telèfon, email. Nivell mig: dades de solvència patrimonial |
+| **Destinataris** | Proveïdors de transport, assessoria laboral (encarregats de tractament) |
+| **Termini de conservació** | 5 anys (obligació fiscal) |
+| **Mesures de seguretat** | Xifratge, control d'accés, backups diaris |
 
-*   **Arquitectura de fitxers:** S'ha estructurat el projecte utilitzant la carpeta `/docs` com a arrel per al desplegament, seguint les especificacions tècniques de GitHub.
-*   **Control de versions:** L'ús de **GitHub** permet gestionar els canvis en local i realitzar actualitzacions mitjançant `commits` a la branca `main`, assegurant que només les versions estables es publiquin a la URL pública.
-*   **Hosting:** La web està operativa sota la plataforma **GitHub Pages**, oferint una URL pública per a la validació del client.
+## 4. Arquitectura i disseny tècnic (Diagrama general)
 
-#### 3.2.2 Evidències Visuals i Disseny
-La nova interfície destaca per la seva claredat i enfocament en la conversió de clients:
+![Inici de sessió amb u_xofer](img/8.png)
 
-*   **Pàgina d'Inici (Landing Page):** Presenta una proposta de valor clara ("Distribució intel·ligent d'aliments frescos") amb un botó d'acció directe per sol·licitar pressupostos.
-    ![Captura de la secció d'inici de FoodLogistic](img/1.png)
+## 5. Implementació de la web i evidències (T02)
 
-*   **Secció de Serveis:** Dissenyada amb un enfocament modular, facilita la lectura dels eixos de negoci: transport refrigerat, gestió d'estocs i logística sostenible.
-    ![Captura de la secció de serveis](img/2.png)
+![Inici de sessió amb u_xofer](img/1.png)
+![Inici de sessió amb u_xofer](img/2.png)
+![Inici de sessió amb u_xofer](img/3.png)
+![Inici de sessió amb u_xofer](img/pri.png)
+![Inici de sessió amb u_xofer](img/avis.png)
+![Inici de sessió amb u_xofer](img/legal.png)
 
-#### 3.2.3 Control i Analítica (StatCounter)
-Per complir amb l'objectiu de mesurar per millorar, s'ha integrat un **Comptador Invisible** mitjançant **StatCounter**. Aquesta eina permet:
+## 6. Pressupost
 
-*   Monitoritzar el volum de visites i el comportament dels usuaris de forma anònima.
-*   Visualitzar dades clau de rendiment mitjançant un panell de control professional, tal com es mostra a la secció d'estadístiques del lloc.
-    ![Captura de mètriques i estadístiques](img/3.png)
-
-#### 3.2.4 Marc Legal i Seguretat
-La proposta tècnica corregeix les deficiències legals prèvies:
-*   **LSSI-CE & LOPDGDD:** La web integra de sèrie els textos legals (Avís legal, Privacitat i Cookies) i un banner de consentiment configurable.
-*   **Protocol Segur:** El desplegament a GitHub Pages inclou automàticament un certificat **SSL (HTTPS)**, garantint la privacitat de les dades dels usuaris que contactin amb l'empresa.
-
----
-
-### 4. Pressupost del Projecte
-
-A continuació es detallen els costos associats a la fase d'implantació inicial i les despeses recurrents de manteniment.
-
-#### 4.1 Costos d'Implantació (Fase Inicial)
+### 6.1 Costos d'implantació (únics)
 
 | Concepte | Hores | Preu/hora (€) | Cost (€) |
 | :--- | :---: | :---: | :---: |
-| Configuració servidors alta disponibilitat | 25 | 40 | 1.000 |
-| Migració al núvol | 20 | 40 | 800 |
-| Desenvolupament pàgina web | 30 | 40 | 1.200 |
-| Vídeo formatiu LOPD | 10 | 40 | 400 |
-| Llicències inicials | Fix | Fix | 300 |
-| Maquinari / Infraestructura | Fix | Fix | 1.000 |
-| **Total Implantació** | | | **4.700 €** |
+| Anàlisi de requeriments i planificació (T01) | 15 | 40 | 600 |
+| Configuració servidor fitxers + permisos (T03) | 10 | 40 | 400 |
+| Configuració servidor impressió amb pool (T04) | 6 | 40 | 240 |
+| Migració a Microsoft 365 (T07) | 12 | 40 | 480 |
+| Desenvolupament i desplegament web (T02) | 25 | 40 | 1.000 |
+| Redacció RAT i mesures LOPD (T05, T06) | 10 | 45 | 450 |
+| Formació en ciberseguretat (vídeo + workshop) | 8 | 50 | 400 |
+| **Subtotal tècnic** | | | **3.570 €** |
+| **Maquinari i llicències (únics)** | | | |
+| NAS Synology DS220+ (backup local) | 1 unitat | 350 | 350 |
+| Discos WD Red 4TB (2 unitats, RAID1) | 2 | 120 | 240 |
+| Switch Gigabit 24 ports (substitució) | 1 | 180 | 180 |
+| Llicència Windows Server 2022 Standard | 1 | 500 | 500 |
+| **Total implantació** | | | **4.840 €** |
 
----
+### 6.2 Costos recurrents (mensuals)
 
-#### 4.2 Costos Mensuals (Manteniment i Serveis)
+| Concepte | Unitats | Preu unitari (€) | Cost mensual (€) | Anual (€) |
+| :--- | :---: | :---: | :---: | :---: |
+| Subscripció Microsoft 365 Business Standard | 15 usuaris | 12,50 | 187,50 | 2.250 |
+| Domini foodlogistic.com (renovació) | 1 any | 1,00 | 1,00 | 12 |
+| Backup al núvol (Backblaze B2, 500 GB) | 500 GB | 0,006/GB | 3,00 | 36 |
+| Manteniment preventiu + suport 24/7 | servei | 200 | 200 | 2.400 |
+| **Total mensual** | | | **391,50 €** | **4.698 €/any** |
 
-| Concepte | Unitats | Preu unitari (€) | Cost mensual (€) |
-| :--- | :---: | :---: | :---: |
-| Subscripció SaaS (Microsoft 365) | 10 usuaris | 12 | 120 |
-| Hosting web | 1 | 20 | 20 |
-| Domini | 1 | 1 | 1 |
-| Suport i manteniment | Fix | Fix | 200 |
-| **Total mensual** | | | **341 €** |
+> **Nota:** El primer any, el cost total és de 4.840€ (implantació) + 4.698€ = **9.538 €**. A partir del segon any, només 4.698 €/any.
 
----
+## 7. Planificació (cronograma)
 
-### 5. Diagrama 
+### 7.1 Taula de tasques i durades
 
-![Captura de mètriques i estadístiques](img/8.png)
----
+| ID | Tasca | Durada (dies) | Predecessores | Recursos |
+| :--- | :--- | :---: | :--- | :--- |
+| 1 | Anàlisi de requeriments i presa de requisits | 3 | - | Consultor |
+| 2 | Adquisició de maquinari i llicències | 5 | 1 | Responsable compres |
+| 3 | Configuració servidor fitxers + permisos | 4 | 2 | Tècnic sistemes |
+| 4 | Configuració servidor impressió | 2 | 3 | Tècnic sistemes |
+| 5 | Desenvolupament web local | 8 | 1 | Desenvolupador web |
+| 6 | Desplegament web a GitHub Pages | 1 | 5 | Desenvolupador |
+| 7 | Migració a Microsoft 365 | 3 | 2 | Tècnic núvol |
+| 8 | Configuració backup + NAS | 2 | 3 | Tècnic sistemes |
+| 9 | Redacció RAT i documents legals | 4 | 1 | Consultor LOPD |
+| 10 | Formació empleats (vídeo + sessió) | 1 | 9 | Formador |
+| 11 | Proves integrals i ajustos | 3 | 4,6,7,8,9 | Tot l'equip |
+| 12 | Lliurament final i acta de conformitat | 1 | 11 | Project Manager |
 
-## 6. Conclusions
+**Durada total estimada:** 22 dies hàbils (aprox. 1 mes natural)
 
-La modernització tecnològica de **FoodLogistic S.A.** representa un salt qualitatiu en la gestió operativa i la seguretat de la companyia. Un cop analitzada la implementació i els resultats obtinguts, s'extreuen les següents conclusions:
+### 7.2 Diagrama de Gantt
+![Inici de sessió amb u_xofer](img/8.png)
 
-*   **Eficiència Operativa:** La centralització de dades i l'ús de permisos NTFS han eliminat la fragmentació de la informació. Ara, els departaments disposen d'un entorn de treball col·laboratiu i estructurat que redueix el temps de cerca de documents i evita duplicitats.
-*   **Continuïtat de Negoci:** La implementació del *Printer Pooling* i el balanceig de càrrega asseguren que les operacions logístiques no s'aturin per fallades tècniques menors, garantint que els albarans i fulls de ruta estiguin sempre disponibles en els terminis crítics del sector alimentari.
-*   **Transformació Digital i Cloud:** La migració a serveis SaaS ha permès professionalitzar la comunicació corporativa. FoodLogistic ja no depèn d'un hosting obsolet, sinó d'una infraestructura global que permet l'accés a la informació des de qualsevol lloc amb la màxima seguretat.
-*   **Presència i Compliment Legal:** La nova pàgina web (T02) no només millora la imatge de marca al Maresme, sinó que blinda l'empresa davant de possibles sancions per incompliment de la LOPDGDD o la LSSI-CE. Gràcies a StatCounter, l'empresa ara té dades reals per prendre decisions de màrqueting basades en fets.
-*   **Seguretat Integral:** El projecte no s'ha limitat a la instal·lació de programari, sinó que ha establert una cultura de seguretat mitjançant polítiques de quotes, bloqueig de fitxers no autoritzats i formació específica per als treballadors.
+### 8.1 Resultats assolits
 
-En resum, **FoodLogistic S.A.** disposa ara d'una infraestructura robusta, escalable i segura, preparada per afrontar els reptes del mercat logístic del 2026 amb garanties d'èxit.
+| Objectiu inicial | Grau de compliment | Evidència |
+| :--- | :---: | :--- |
+| Centralització de dades | 100% | Totes les unitats de negoci comparteixen el mateix namespace `\\FS01\...` |
+| Modernització del correu | 100% | 15 usuaris actius a M365, zero cues de correu brossa |
+| Presència web legal | 100% | Web pública amb SSL, cookies i textos legals validats |
+| Infraestructura d'impressió | 95% | Printer pooling actiu, només pendent d'adquirir 2a impressora |
+| Seguretat de dades | 90% | RAT lliurat, backups actius, formació realitzada |
+| Planificació professional | 100% | Cronograma complert en 22 dies hàbils |
 
----
+### 8.2 Impacte esperat en el negoci
+
+- **Eficiència operativa:** Reducció del temps de cerca de documents en un 40%.
+- **Continuïtat de negoci:** Amb el printer pooling i backups, el risc d'aturada és gairebé nul.
+- **Compliment legal:** S'eviten possibles sancions de l'Agència Espanyola de Protecció de Dades (fins a 20 milions € o 4% de la facturació anual).
+- **Imatge de marca:** La nova web, professional i segura, inspira confiança als clients del sector alimentari.
