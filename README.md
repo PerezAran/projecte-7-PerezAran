@@ -4,7 +4,7 @@
 
 ![Logo del projecte FoodLogistic](pics/FoodLogisticLogo.png)
 
-# 📦 Projecte 5: Modernització Tecnològica i Seguretat – FoodLogistic S.A.
+# 📦 Projecte 7: Modernització Tecnològica i Seguretat – FoodLogistic S.A.
 
 ---
 
