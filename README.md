@@ -63,3 +63,6 @@ Actualment, la seva infraestructura tecnològica ha quedat obsoleta, generant gr
 | **T07** | Migrant al cloud | [Anar a la carpeta](./T07%20Migrant%20al%20cloud) |
 | **T08** | tria de la web definitiva | [Anar a la carpeta](./T08%20tria%20de%20la%20web%20definitiva) |
 | **T09** | Estimació temporal de projecte | [Anar a la carpeta](./T09%20Estimaci%C3%B3%20temporal%20de%20projecte) |
+
+[Anar a presetacio](https://github.com/PerezAran/presentacio)
+
