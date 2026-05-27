@@ -57,7 +57,7 @@ Actualment, la seva infraestructura tecnològica ha quedat obsoleta, generant gr
 | **T01** | Coneixement la competència i el sector | [Anar a la carpeta](./T01%20Coneixement%20la%20compet%C3%A8ncia%20i%20el%20sector) |
 | **T02** | Creant la proposta de pàgina corporativa | [Anar a la carpeta](./T02%20Creant%20la%20proposta%20de%20p%C3%A0gina%20corporativa) |
 | **T03** | Servidor de fitxers | [Anar a la carpeta](./T03%20Servidor%20de%20fitxers) |
-| **T04** | Servidor d’impressió amb Printer Pooling i ... | [Anar a la carpeta](./T04%20Servidor%20d%E2%80%99impressi%C3%B3%20amb%20Printer%20Pooling%20i%20...) |
+| **T04** | Servidor d’impressió amb Printer Pooling i ... | [Anar a la carpeta](./T04%20Servidor%20d´impressió%20amb%20Printer%20Pooling%20i%20GPO) |
 | **T05** | Vídeo formatiu LOPD empleats | [Anar a la carpeta](./T05%20V%C3%ADdeo%20formatiu%20LOPD%20empleats) |
 | **T06** | Operacio Escut Digital | [Anar a la carpeta](./T06%20Operacio%20Escut%20Digital) |
 | **T07** | Migrant al cloud | [Anar a la carpeta](./T07%20Migrant%20al%20cloud) |
