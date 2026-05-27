@@ -1,4 +1,4 @@
-# projecte FoodLogistic
+# Projecte 7 FoodLogistic
 
 ## Modernització de la logística alimentària a través de la tecnologia
 
