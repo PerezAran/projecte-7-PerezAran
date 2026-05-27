@@ -1,5 +1,3 @@
-[Ir al inicio del Repositorio](./documentacion)https://github.com/classesSMX2n/projecte-7-PerezAran/tree/main/T01%20Coneixement%20la%20compet%C3%A8ncia%20i%20el%20sector
-)
 # T01: Coneixent la competència i el sector
 
 ## 📌 Breu descripció
