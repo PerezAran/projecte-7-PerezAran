@@ -38,3 +38,28 @@ Actualment, la seva infraestructura tecnològica ha quedat obsoleta, generant gr
 * 🛡️ **Seguretat:** Protegir la infraestructura contra codi maliciós i auditar les vulnerabilitats dels sistemes actuals.
 * 🔄 **Continuïtat de Negoci:** Garantir que l'empresa no s'aturi davant d'incidents crítics o pèrdues de dades.
 * 🌿 **Sostenibilitat (Green IT):** Implementar polítiques de tecnologia verda i eficiència energètica alineades amb el creixement de la companyia.
+
+# 📂 Índex del Projecte 7: PerezAran
+
+### 📌 Productes (Lliuraments Formals)
+
+| Codi | Producte / Activitat | Enllaç Directe |
+| :--- | :--- | :--- |
+| **P01** | Memòria Tècnica | [Anar a la carpeta](#) |
+| **P02** | Web Corporativa - FoodLogistic | [Anar a la carpeta](#) |
+
+<br>
+
+### 📝 Tasques de Seguiment i Documentació
+
+| Codi | Descripció de la Tasca | Enllaç Directe |
+| :--- | :--- | :--- |
+| **T01** | Coneixement la competència i el sector | [Anar a la carpeta](#) |
+| **T02** | Creant la proposta de pàgina corporativa | [Anar a la carpeta](#) |
+| **T03** | Servidor de fitxers | [Anar a la carpeta](#) |
+| **T04** | Servidor d’impressió amb Printer Pooling i ... | [Anar a la carpeta](#) |
+| **T05** | Vídeo formatiu LOPD empleats | [Anar a la carpeta](#) |
+| **T06** | Operacio Escut Digital | [Anar a la carpeta](#) |
+| **T07** | Migrant al cloud | [Anar a la carpeta](#) |
+| **T08** | tria de la web definitiva | [Anar a la carpeta](#) |
+| **T09** | Estimació temporal de projecte | [Anar a la carpeta](#) |
